@@ -4,7 +4,7 @@ import json
 from streamlit_lottie import st_lottie
 import google.generativeai as genai
 from dotenv import load_dotenv
-from PIL import Image
+
 
 
 load_dotenv()  ## loading all the environment variables
