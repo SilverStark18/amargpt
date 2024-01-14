@@ -1,0 +1,5 @@
+environment needed 
+are
+Streamlit library to leverage web applications with simple code
+google-generativeai---model that gives answerrs to us
+python-dotenv -- to manage environment variables
