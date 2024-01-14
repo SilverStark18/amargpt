@@ -41,7 +41,7 @@ if selected == "NEW CHAT":
         return response
     st.header("𝐀𝐦𝐚𝐫𝐆𝐏𝐓 🦅 based on    Gemini LLM Application")  # title in the web page
 
-    lottie_hi = load_lottiefiles(r'E:\pythonmlprojects\multipagegemini_llm\pages\higpt.json')
+    lottie_hi = load_lottiefiles(r'higpt.json')
     st_lottie(
         lottie_hi, loop=True, quality="high", speed=1.65, key=None, height=450)
 
@@ -65,7 +65,7 @@ if selected == 'CHAT HISTORY':
     st.title("CHAT HISTORY")
     
     # Display chat history with animation
-    lottie_chat = load_lottiefiles(r'E:\pythonmlprojects\multipagegemini_llm\pages\askchat.json')
+    lottie_chat = load_lottiefiles(r'askchat.json')
     st_lottie(lottie_chat, loop=True, quality="high", speed=1.65, key=None, height=450)
     
     # Display chat history if the button is clicked
@@ -80,7 +80,7 @@ if selected == 'CHAT HISTORY':
 
 
 if selected == 'CREDITS':
-    lottie_credit = load_lottiefiles(r"E:\pythonmlprojects\multipagegemini_llm\pages\thankyou bymonkeymoji.json")
+    lottie_credit = load_lottiefiles(r"thankyou bymonkeymoji.json")
     st_lottie(lottie_credit, loop=True,quality="high", speed=1.25, key=None, height=350)
     st.title("CRAFTED BY :")
     st.subheader("AMARNATH SILIVERI")
