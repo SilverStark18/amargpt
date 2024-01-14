@@ -21,7 +21,7 @@ st.set_page_config(page_title="AMAR GPT", page_icon='🦅')  # page title
 
 #code for lottie file animation
 def load_lottiefiles(filepath: str):
-    with open(filepath, 'rb') as f:
+    with open(filepath, 'r') as f:
         return json.load(f)
 
 # Use option_menu with the defined styles
